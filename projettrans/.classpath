@@ -2,6 +2,52 @@
 <classpath>
 	<classpathentry kind="src" path="src/main/resources/QlApps"/>
 	<classpathentry kind="con" path="org.maven.ide.eclipse.MAVEN2_CLASSPATH_CONTAINER"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/ajaxdivtag.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/claros-commons.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-beanutils-bean-collections.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-beanutils-core.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-collections.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-configuration.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-dbcp.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-dbutils.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-digester.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-lang.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-logging-api.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/commons-pool.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/mrpersister.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/mysql-connector.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/smack.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/smackx-debug.jar"/>
+	<classpathentry kind="lib" path="src/main/webapp/WEB-INF/lib/smackx.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
